@@ -15,7 +15,8 @@ app.use(cookieParser());
 
 const allowedOrigins = [
   "http://localhost:5173", // customer
-  "http://localhost:5174"  // banker
+  "http://localhost:5174",  // banker
+  "https://food-delivery-app-26e6.vercel.app/login"
 ];
 
 app.use((req, res, next) => {
