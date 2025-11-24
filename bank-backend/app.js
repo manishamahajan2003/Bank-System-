@@ -80,7 +80,8 @@ const allowedOrigins = [
   "http://localhost:5174",     // banker frontend (local)
   "https://bank-system-o9v2.vercel.app",   // customer frontend (live)
   "https://bank-system-6iee.vercel.app",   // customer alternate deployment
-  "https://banker-system-bvlr.vercel.app"  // banker frontend (live)
+  "https://banker-system-bvlr.vercel.app",  // banker frontend (live)
+  "https://bank-system-ejzj.vercel.app"
 ];
 
 app.use(
