@@ -42,7 +42,7 @@ export default function Login() {
   return (
     <div
       className="min-h-screen w-full bg-cover bg-center flex items-center justify-end p-10"
-      style={{ backgroundImage: "url('/src/assets/bank-background-image.jpg')" }}
+      style={{ backgroundImage: "url('/bank-background-image.jpg')" }}
     >
       <div className="w-full max-w-md bg-white/80 backdrop-blur-md p-8 rounded-2xl shadow-xl">
         <h2 className="text-3xl font-bold text-center mb-6">Customer Login</h2>
