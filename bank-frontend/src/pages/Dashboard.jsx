@@ -9,7 +9,7 @@ export default function Dashboard() {
   // Fetch customer data from backend
   const fetchCustomer = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/customers/me", {
+      const res = await axios.get("https://bank-system-pq3p.onrender.com/api/customers/me", {
         withCredentials: true, 
       });
       setCustomer(res.data);
@@ -26,7 +26,7 @@ export default function Dashboard() {
 
   const handleLogout = async () => {
     try {
-      await axios.post("http://localhost:5000/api/auth/logout", {}, { withCredentials: true });
+      await axios.post("https://bank-system-pq3p.onrender.com/api/auth/logout", {}, { withCredentials: true });
       navigate("/login");
     } catch (error) {
       console.error(error);
