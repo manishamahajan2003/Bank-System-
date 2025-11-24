@@ -18,7 +18,6 @@ const allowedOrigins = [
   "http://localhost:5174",
   "https://bank-system-o9v2.vercel.app",
   "https://bank-system-6iee.vercel.app",
-  "https://banker-system-bvlr.vercel.app",
   "https://bank-system-ejzj.vercel.app"
 ];
 
