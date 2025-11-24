@@ -71,7 +71,7 @@ export default function Transactions() {
 
     try {
       const res = await axios.post(
-        "https://bank-system-pq3p.onrender.com/apitransactions",
+        "https://bank-system-pq3p.onrender.com/api/transactions",
         { type: modalType, amount },
         { headers: { Authorization: `Bearer ${token}` } }
       );
