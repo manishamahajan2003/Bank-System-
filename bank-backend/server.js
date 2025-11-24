@@ -6,7 +6,7 @@ const cors = require("cors");
 
 app.use(cors({
   origin: ["http://localhost:5173",
-  "https://bank-system-ejzj.vercel.app/"
+  "https://bank-system-ejzj.vercel.app"
            ],
   credentials: true
 }));
