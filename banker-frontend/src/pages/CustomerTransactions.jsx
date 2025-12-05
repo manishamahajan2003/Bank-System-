@@ -140,11 +140,11 @@ export default function CustomerTransactions() {
 
         {/* Back Button */}
         <Link
-          to="/accounts"
-          className="inline-block px-4 py-2 mb-6 bg-gray-700 text-white rounded-lg shadow hover:bg-gray-800 transition"
-        >
-          ⬅ Back to Accounts
-        </Link>
+  to="/accounts"
+  className="inline-flex items-center gap-2 px-5 py-2.5 mb-6 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-xl shadow-lg hover:from-blue-700 hover:to-indigo-700 active:scale-95 transition"
+>
+  Back to Accounts
+</Link>
 
         <h1 className="text-3xl font-bold mb-6 text-center">
           Customer Transaction History
